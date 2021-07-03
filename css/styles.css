@@ -749,7 +749,6 @@
     margin-bottom: 90px;
     padding-left: 70px;
     max-width: 350px;
-    z-index: 1;
 }
 
 .roots ul li {
@@ -763,14 +762,14 @@
 .roots ul li::before {
     content: "";
     position: absolute;
-    display: block;
-    height: 12px;
+    height: 24px;
     width: 12px;
-    background-color: var(--primary);
-    border-radius: 50%;
+    background-image: url("../Images/leaf outline - green.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
     left: -20px;
-    top: 6px;
-    z-index: 5;
+    top: 0;
 }
 
 /* Landscape Mobile */
