@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137702322-31"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-137702322-31');
+    </script>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Conact Diamond Landscape and Sprinkler Repair today for a FREE estimate on yuor home project.">
+    <meta name="keywords" content="">
+
+    <!--Favicons-->
+    <link rel="icon" type="image/png" sizes="32x32" href="../Images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../Images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/primary-styles.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="/css/dark.css">
+
+    <!-- jQuery -->
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <title>Contact Us | Wild Pine Web Designs</title>
+</head>
+<body>
+
+    <a class="main-skip" aria-label="skip to main content" href="/html/contact.html#main">Click To Skip To Main</a>
+
+    <header>
+
+        <!-- Mobile Nav Strip -->
+        <div class="mobile-wrapper">
+            <div class="mobile-nav container mobile-nav-container">
+                <img id="mobile-logo" src="../Images/Wild Pine logo.png" alt="" height="80">
+
+                <!-- Hamburger Menu -->
+                <button aria-label="open the menu" id="menu-button" class="hamburger hamburger--spring" onclick="toggleNav()" type="button">
+                    <span aria-hidden="true" class="hamburger-box">
+                        <span aria-hidden="true" class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <!-- ============================================ -->
+        <!--                   NAVIGATION                 -->
+        <!-- ============================================ -->
+
+        <nav>
+            <div class="navbar-menu">
+                <div id="side-menu" class=" side-nav">
+                    <img aria-hidden="true" src="../Images/Wild Pine logo.png" alt="" height="80">
+                    <ul id="on-top" class="navbar-links">
+                        <li class="nav-li"><a href="wildpinewebdesigns.com">Home</a></li>
+                        <li class="nav-li"><a href="wildpinewebdesigns.com#pricing">Services</a></li>
+                        <li class="nav-li"><a href="/html/about.html">About</a></li>
+                        <li class="nav-li"><a class="active-menu" href="/">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+        
+    <main id="main">
+    
+        <!-- ============================================ -->
+        <!--                    LANDING                   -->
+        <!-- ============================================ -->
+
+        <section id="hero">
+            <div class="container hero-content">
+                <h1>Contact Us</h1>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!--                    FORM                      -->
+        <!-- ============================================ -->
+        
+        <section id="wild-pine-form" class="container">
+            <form id="contact-form" name="Contact Form" method="post" data-netlify="true">
+                <span>Wild Pine Web Designs</span>
+                <h3 class="contact-topper">Send a Message</h3>
+                <p class="form-p">Looking to get started on your new website? Let us know! Fill out the form below, shoot us an email, or give us a call.</p>
+        
+                <input aria-label="name" class="input1" name="name" placeholder="Name" type="text" tabindex="1" required>
+                <input aria-label="email" class="input1 right" name="email" placeholder="Email Address" type="email" tabindex="2" required>
+                <input aria-label="phone number" class="input1" name="phone" placeholder="Phone Number" type="tel" tabindex="3" required>
+                <input aria-label="location" class="input1 right" name="location" placeholder="Location" type="text" tabindex="4" required>
+                <input aria-label="how did you hear about us" name="hear" placeholder="How Did You Hear About Us" type="text" tabindex="5" required>
+                <textarea aria-label="write your message" name="message" placeholder="Tell us about your project" tabindex="6" required></textarea>
+               
+                <p class="form-submit">
+                    <button name="submit" type="submit" id="contact-submit" class="primary button-solid" data-submit="...Sending">Submit</button>
+                </p>
+            </form>
+            <div class="contact-right">
+                <h3>Phone</h3>
+                <p>(503) 621-6186</p>
+                <h3>Email</h3>
+                <p>info@wildpinewebdesigns.com</p>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- ============================================ -->
+    <!--                     FOOTER                   -->
+    <!-- ============================================ -->
+
+    <section id="footer">
+        <div class="container">
+            <div class="footer-contact">
+                <img src="/Images/Wild Pine logo.png" alt="">
+                <p><a href="mailto:info@wildpinewebdesigns.com">info@wildpinewebdesigns.com</a></p>
+                <p><a href="tel:503-621-6186">(503) 621-6186</a></p>
+            </div>
+            <div class="footer-middle">
+                <div class=footer-nav>
+                    <h3>Navigation</h3>
+                    <a href="wildpinewebdesigns.com">Home</a>
+                    <a href="wildpinewebdesigns.com#pricing">Services</a>
+                    <a href="html/about.html">About</a>
+                    <a href="/">Contact</a>
+                </div>
+                <p>Web Design | Web Development | Search Engine Optimization | Unlimited Maintenance | Cancel Anytime</p>
+            </div>
+        </div>
+        <span>Copyright 2021 Wild Pine Web Designs | All Rights Reserved</span>
+    </section>
+
+    <script>
+        var ba = ["MSIE","Trident","Edge"];
+        var b, ua = navigator.userAgent;
+        for(var i=0; i < ba.length; i++){
+            if( ua.indexOf(ba[i]) > -1 ){
+                b = ba[i];
+                break;
+            }
+        }
+        if(b == "MSIE" || b == "Trident" || b == "Edge"){
+            b = "Internet Explorer";
+            alert("You are using the " + b + " browser and this browser is incompatible with this website and many others.  Please open this page in a different browser, either Chrome or Firefox.  Thank you!");
+        }
+    </script>
+
+    <script defer src="/app.js"></script>
+</body>
+</html>
