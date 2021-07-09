@@ -36,7 +36,7 @@
     <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 
-    <title></title>
+    <title>Web Design and Web Development for Small Businesses | Wild Pine Web Designs, LLC</title>
 
 </head>
 
@@ -49,7 +49,7 @@
             <!-- Mobile Navbar -->
             <div class="mobile-wrapper">
                 <div class="mobile-nav container">
-                    <img src="/Images/Wild Pine logo.png" alt="Wild Pine Logo" height="80">
+                    <img src="/Images/Wild Pine logo.png" alt="" height="80">
                     <!-- Hamburger Menu -->
                     <button aria-label="Open Menu" id="menu-button" class="hamburger hamburger--spring" onclick="toggleNav()" type="button">
                         <span aria-hidden="true" class="hamburger-box">
@@ -66,12 +66,12 @@
             <!-- Desktop Navbar -->
             <div class="navbar-menu">
                 <img src="/Images/Wild Pine logo.png" alt="" height="80">
-                <div id="side-menu" class=" side-nav">
+                <div id="side-menu" class="side-nav">
                     <ul id="on-top" class="navbar-links">
-                        <li class="nav-li"><a class="active-menu" href="index.html">Home</a></li>
-                        <li class="nav-li"><a href="#about">About</a></li>
+                        <li class="nav-li"><a class="active-menu" href="/">Home</a></li>
                         <li class="nav-li"><a href="#pricing">Services</a></li>
-                        <li class="nav-li"><a href="html/contact.html">Contact</a></li>
+                        <li class="nav-li"><a href="/html/about.html">About</a></li>
+                        <li class="nav-li"><a href="/html/contact.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -94,25 +94,29 @@
                 <div class="hero-right">
                     <h3>Starting at</h3>
                     <p>$150 per month</p>
-                    <a class="button" href="html/contact.html">GET STARTED</a>
+                    <a class="button" href="/html/contact.html">GET STARTED</a>
                 </div>
             </div>
             <div id="dark-pines"></div>
         </section>
 
         <!-- ============================================ -->
-        <!--                    About                     -->
+        <!--                 Why Choose Us                -->
         <!-- ============================================ -->
 
-        <section id="about">
+        <section id="why-choose">
             <div class="container">
-                <img src="Images\Laptop w Logo.png" alt="">
-                <div class="about-title">
-                    <h3><span>W</span>hy Choose</h3>
-                    <h3><span>W</span>ild Pine</h3>
-                    <h3><span>W</span>eb Designs</h3>
+                <div class="why-choose-title">
+                    <div class="why-choose-top">
+                        <div aria-hidden="true" class="laptop-container"></div>
+                        <div class="w-title">
+                            <h3><span>W</span>hy Choose</h3>
+                            <h3><span>W</span>ild Pine</h3>
+                            <h3><span>W</span>eb Designs</h3>
+                        </div>
+                    </div>
                     <p>
-                        We create our websites by going back to the <span>roots</span> of web development. We <span>hand-code</span> each site without the use of website page builders, such as WordPress...<br>
+                        We create our websites by going back to the <span>roots</span> of web development. We <span>hand-code</span> each site without the use of website page builders, such as WordPress or Joomla.
                         This allows for total <span>design flexibility</span> and <span>fast processing</span> thanks to the lack of countless pesky plugins bloating the website and weighing down its performance.
                     </p>    
                 </div>
@@ -187,25 +191,25 @@
                 <h2>Pricing</h2>
                 <div class="price-group">
                     <div class="price">
-                        <h3>Small</h3>
+                        <h3 class="bronze">Bronze</h3>
                         <h4>$150 Down</h4>
                         <h4>$150/Month</h4>
                         <h4>1 - 2 Pages</h4>
                     </div>
                     <div class="price">
-                        <h3>Standard</h3>
+                        <h3 class="silver">Silver</h3>
                         <h4>$200 Down</h4>
                         <h4>$200/Month</h4>
                         <h4>3 - 5 Pages</h4>
                     </div>
                     <div class="price">
-                        <h3>Large</h3>
+                        <h3 class="gold">Gold</h3>
                         <h4>$300 Down</h4>
                         <h4>$300/Month</h4>
                         <h4>6 - 9 Pages</h4>
                     </div>
                 </div>
-                <a href="" class="button">Contact Us!</a>
+                <a href="/html/contact.html" class="button">Contact Us!</a>
                 <ul>
                     <li>
                         <h3>No Minimum Contract</h3>
@@ -236,7 +240,26 @@
         </section>
 
         <!-- ============================================ -->
-        <!--                    Footer                   -->
+        <!--                    About                     -->
+        <!-- ============================================ -->
+
+        <section id="about">
+            <div class="container">
+                <img src="/Images/head shot.jpg" alt="Wild Pine Owner">
+                <div>
+                    <h2>About Us</h2>
+                    <p>
+                        I’m Matt, sole owner, designer, and developer of Wild Pine Web Designs, LLC. I began my education in Software Development in 2016 while raising my two very active children as a stay-at-home dad. In 2019, I gruaduated at Western Governors University before kicking off my career as a web developer. That’s when I began to discover the vast differences between <span class="blue">web development</span> and what I call <span class="blue">web building</span>.
+                    </p>
+                    <a href="/html/about.html">Read More</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+        <!-- ============================================ -->
+        <!--                    Footer                    -->
         <!-- ============================================ -->
 
         <div class="footer-img"></div>
@@ -251,18 +274,17 @@
                     <div class=footer-nav>
                         <h3>Navigation</h3>
                         <a href="#">Home</a>
-                        <a href="#about">About</a>
                         <a href="#pricing">Services</a>
-                        <a href="html/contact.html">Contact</a>
+                        <a href="/html/about.html">About</a>
+                        <a href="/html/contact.html">Contact</a>
                     </div>
                     <p>Web Design | Web Development | Search Engine Optimization | Unlimited Maintenance | Cancel Anytime</p>
                 </div>
-                <a href="html/contact.html" class="button">Get A Quote</a>
+                <a href="/html/contact.html" class="button">Get A Quote</a>
             </div>
-            <span>Copyright 2021 Wild Pine Web Designs | All Rights Reserved</span>
+            <span>Copyright 2021 Wild Pine Web Designs, LLC | All Rights Reserved</span>
         </section>
 
-    </main>
 
     <script>
         var ba = ["MSIE", "Trident", "Edge"];
@@ -275,7 +297,7 @@
         }
         if (b == "MSIE" || b == "Trident" || b == "Edge") {
             b = "Internet Explorer";
-            alert("You are using the " + b + " browser and this browser is incompatible with this website and many others.  Please open this page in a different browser, either Chrome or Firefox.  Thank you!");
+            alert("You are using the " + b + " browser which is incompatible with this website and many others.  Please open this page in a different browser, such as Chrome or Firefox.  Thank you!");
         }
     </script>
 
