@@ -1385,10 +1385,11 @@
     }
 
     #pricing .button {
+        position: absolute;
         width: 200px;
         margin-right: 0;
-        bottom: -620px;
-        right: 220px;
+        bottom: -70px;
+        right: 240px;
     }
 
     #pricing ul {
@@ -1397,7 +1398,7 @@
         column-count: 2;
         padding-left: 50px;
         margin-bottom: 150px;
-        margin-top: -50px;
+        margin-top: 0;
         max-width: 850px;
     }
 
