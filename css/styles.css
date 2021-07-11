@@ -1387,7 +1387,7 @@
     #pricing .button {
         position: absolute;
         width: 200px;
-        margin-right: 0;
+        margin: 0;
         bottom: -70px;
         right: 240px;
     }
