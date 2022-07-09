@@ -428,15 +428,6 @@
 
 }
 
-/* Large Desktop */
-@media only screen and (min-width: 1500px) {
-
-    #hero {
-        height: 100vh;
-    }
-
-}
-
 /*-- -------------------------- -->
 <---          Why Choose        -->
 <--- -------------------------- -*/
